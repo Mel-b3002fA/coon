@@ -3,8 +3,10 @@
     text-decoration: none;
 }
 
+
 body{
     margin: 0 auto;
+    position: relative;
 }
 
 .landing{
@@ -14,10 +16,9 @@ body{
 .landing-image{
     background-image: url(./img/pexels-cottonbro-4722053.jpg);
     width: 98.89999969999vw;
-    height: 46.2vw;
+    height: 70vw;
     background-position: center;
     background-size: cover;
-    
 }
 
 .header-nav{
@@ -34,12 +35,12 @@ body{
 
 .nav-title-item{
  margin-top: 0px;
- font-size: 20px;
+ font-size: 35px;
  color: white;
-   font-family: "Syncopate", sans-serif;
-  font-weight: 700;
+   font-family: Vend sans;
   font-style: normal;
   line-height: 0.1%;
+  letter-spacing: -4.3px;
 }
 
 .nav-menu-text{
@@ -55,13 +56,24 @@ body{
     color: #ffffff;
 }
 
+.header-main :nth-child(1){
+    padding-right: 50px;
+}
+
+.header-main :nth-child(3){
+    padding-left: 50px;
+}
+
 .header-main-pic{
     width: 100px;
+     position: fixed;
+    top: 40%;  /* Distance from top of viewport */
+    left: 46%;
 }
 
 .header-main{
     display: flex;
-    padding-top: 220px;
+    padding-top: 176px;
     align-items: center;
     gap: 10px;
     justify-content: center;
@@ -69,3 +81,13 @@ body{
 }
 
 
+.section2{
+line-height: 20%;
+}
+
+.section2-item{
+    font-family: Bebas Neue;
+    font-weight: 700;
+    font-size: 200px;
+    letter-spacing: -4px;
+}
