@@ -91,3 +91,10 @@ line-height: 20%;
     font-size: 200px;
     letter-spacing: -4px;
 }
+
+.section2-img{
+    width: 100px;
+     position: fixed;
+    top: 40%;  /* Distance from top of viewport */
+    left: 46%;
+}
