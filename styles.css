@@ -16,13 +16,14 @@ body{
 .landing-image{
     background-image: url(./img/pexels-cottonbro-4722053.jpg);
     width: 98.89999969999vw;
-    height: 70vw;
+    height: 100vh;
     background-position: center;
     background-size: cover;
 }
 
 .header-nav{
     max-width: 100vw;
+    max-height: 100vh;
     padding-top: 30px;
     margin-top: 0 auto;
     padding-left: 20px;
@@ -50,6 +51,11 @@ body{
     margin: 0 auto;
 }
 
+.header-main {
+display: flex;
+    align-items: center;
+}  
+
 .header-main-para{
     font-size: 23px;
     font-family: Vend Sans;
@@ -67,15 +73,15 @@ body{
 .header-main-pic{
     width: 100px;
      position: fixed;
-    top: 40%;  /* Distance from top of viewport */
+    top: 48%;  /* Distance from top of viewport */
     left: 46%;
 }
 
 .header-main{
     display: flex;
-    padding-top: 176px;
+    padding-top: 34vh;
     align-items: center;
-    gap: 10px;
+    gap: 60px;
     justify-content: center;
     letter-spacing: -1.6px;
 }
@@ -96,7 +102,7 @@ margin-left: 40px;
 .section2-img{
     width: 100px;
      position: fixed;
-    top: 40%;  /* Distance from top of viewport */
+    top: 45%;  /* Distance from top of viewport */
     left: 46%;
 }
 
