@@ -98,3 +98,22 @@ line-height: 20%;
     top: 40%;  /* Distance from top of viewport */
     left: 46%;
 }
+
+.footer{
+    width: 98.9vw;
+    background-color: #61ff00;
+    height: 20vh;
+}
+
+.footer-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text{
+    font-family: Bebas Neue;
+    font-weight: 700;
+    font-size: 200px;
+    letter-spacing: -4px;
+}
