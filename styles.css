@@ -9,6 +9,10 @@ body{
     position: relative;
 }
 
+
+
+
+
 .landing{
     background-color: black;
 }
@@ -70,12 +74,37 @@ display: flex;
     padding-left: 50px;
 }
 
+
+
+
+
+
+
+
 .header-main-pic{
     width: 100px;
      position: fixed;
     top: 48%;  /* Distance from top of viewport */
     left: 46%;
 }
+
+.section2-img{
+    width: 100px;
+     position: fixed;
+    top: 45%;  /* Distance from top of viewport */
+    left: 46%;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .header-main{
     display: flex;
@@ -97,13 +126,6 @@ margin-left: 40px;
     font-weight: 700;
     font-size: 200px;
     letter-spacing: -4px;
-}
-
-.section2-img{
-    width: 100px;
-     position: fixed;
-    top: 45%;  /* Distance from top of viewport */
-    left: 46%;
 }
 
 .footer{
@@ -173,4 +195,23 @@ margin-left: 40px;
      font-size: 23px;
     font-family: Vend Sans;
     letter-spacing: -1.8px;
+}
+
+
+.aboutus{
+    margin-top: 0 auto;
+    overflow: hidden;
+}
+
+.aboutus-wrapper{
+    background-image: url(./img/vhde.png);
+    width: 99vw;
+    height: 120vh;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.aboutus-text{
+    margin-top: 0;
 }
