@@ -44,7 +44,7 @@ body{
  color: white;
    font-family: Vend sans;
   font-style: normal;
-  line-height: 0.1%;
+  line-height: 0.001%;
   letter-spacing: -4.3px;
 }
 
@@ -140,6 +140,7 @@ margin-left: 40px;
     justify-content: center;
     align-items: center;
     gap: 30px;
+    padding-top: 45px;
 }
 
 .footer-arrow{
@@ -153,6 +154,7 @@ margin-left: 40px;
     letter-spacing: -4px;
     margin: 0 auto;
     padding-top: 47px;
+    color: black;
 }
 
 
@@ -204,14 +206,40 @@ margin-left: 40px;
 }
 
 .aboutus-wrapper{
-    background-image: url(./img/vhde.png);
+    background-image: url(./img/pexels-danielnouri-8448561.jpg);
     width: 99vw;
     height: 120vh;
     background-position: center;
     background-size: cover;
 }
+.aboutus-header{
+    
+}
 
+.aboutus-header-text{
+    margin-top: 0;
+    font-family: Instrument Serif;
+    color: #ffffff;
+    font-size: 15px;
+}
 
 .aboutus-text{
     margin-top: 0;
+    font-family: Instrument Serif;
+    color: #ffffff;
+    font-size:50px;
+    line-height: 20%;
+}
+
+.aboutus-wrapper-2{
+ text-align: center;
+     padding-top: 30vh;
+}
+.brag{
+    width: 100wv;
+    height: 100vh;
+}
+
+.nav-title-item2{
+color: rgb(255, 255, 255);
 }
