@@ -238,3 +238,23 @@ color: #feefa0;
 .nav-menu-text2{
     color: #feefa0;
 }
+
+.overflow-wrapper{
+     overflow: hidden;
+}
+
+.aboutus3{
+    background-color: #292929;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.aboutus3-text{
+    font-family: Bebas Neue;
+    font-weight: 700;
+    font-size: 200px;
+    letter-spacing: -4px;
+    margin: 0 auto;
+color: #ff6e14;
+}
